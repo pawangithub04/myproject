@@ -1,0 +1,118 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@100;200;300&family=Just+Me+Again+Down+Here&display=swap" rel="stylesheet">
+<link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=IBM Plex Sans:wght@400;500;700&display=swap"
+/>
+<link
+rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Just Me Again Down Here:wght@400&display=swap"/>
+<link rel="stylesheet" href="{% static 'myapp/thankyou.css' %}">
+<!--<link rel="shortcut icon" href="{% static 'myapp/byteLOGO.svg' %} type="image/x-icon">-->
+
+</head>
+<body>
+    <header>
+        <div class="header" id="header">
+            <div class="logo" id="logo">
+                <a href="{% url 'bytedigital' %}"><img src="{% static 'myapp\byteLOGO.svg' %}" alt=""></a>
+                <div class="byte-digital">
+                    <div class="byte">Byte</div>
+                    <div class="digital">Digital</div>
+                </div>
+            </div>
+            
+            <div class="headlinks" id="headerlinks">
+                <a href="{% url 'about_us8aug' %}"><div class="no-decoration">About us </div></a>
+                <a href="www.google.com"><div class="no-decoration">Services </div></a>
+                <a href="www.google.com"><div class="no-decoration">Our work </div></a>
+                <a href="www.google.com"><div class="no-decoration">Blog </div></a>
+                <a href="{% url 'contact_form' %}"><div class="no-decoration"><button>Book a call</button> </div></a>
+                
+                
+            </div>
+            <div class="hamburger" id="hambergerMenu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="thankyou_main">
+            <div class="thankyou">
+                <h1>Thank you</h1>
+            </div>
+            <div id="thankyou_main"><img  class="thankyouImage"src="{% static 'myapp/thankyouI.svg' %}" alt="">
+            <img  class = "womenSelfie"src="{% static 'myapp/young women taking a selfie (1).svg' %}" alt="young women taking a selfie"></div>
+            <div class="thankyou_content">
+                <h3>Thank you for getting in touch</h3>
+                <p>Our team will look into the finer details and get in touch with you soon</p>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+                <div class="footer">
+                    <div class="have_project"><h3>Have a project</h3></div>
+                    <div class="have_convo">
+                        <p>We should start a conversation ✋</p>
+
+                    </div>
+                    <div class="header_book"><button><a href="{% url 'contact_form' %}">Book free call today</a></button></div>
+                    <div class="hrline"></div>
+                    <div class="footer_table_sec">
+                        <div class="addrs">
+                            <div class="add_cmpny-name"><p>BYTE DIGITAL</p></div>
+                            <div class="cmpny_address"><p>Ground floor, 470, St. Kilda Road,Melbourne, VIC 3004, Australia</p></div>
+                            <div class="cmpny_phn_no"><a href="tel+61 - 452515004">+61 - 452515004</a></div>
+                            <div class="cmpny_email"><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">hello@byte-digital.com.au</a></div>
+                        </div>
+                        <div class="links">
+                          <div class="cmpny"><p>Company</p></div>
+                          <a href="{% url 'about_us8aug' %}" class="service1">About us</a>
+                          <a href="#" class="service2">Services</a>
+                          <a href="#" class="service3">Our work</a>
+                          <a href="#" class="service4"> Our Blog</a>
+                        </div>
+
+                    </div>
+                    <div class="foot"></div>
+                    <div class="common_links">
+                        <div class="copy_right">
+                            <ul>
+                                <li class="copyright"><a href="#">© Copyright 2023 Byte Digital Consulting Pty Ltd.</a></li>
+                                <li class="tndc"><a href="#">Terms of conditions</a></li>
+                                <li class="privacy-policy"><a href="#">Privacy policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="logo_links">
+
+                            <div class="linkdin"><a href="https://www.linkedin.com/company/byte-digital-solutions/" target="_blank"><img src="{% static 'myapp/linkdin.svg' %}" alt="LinkedIn"></a></div>
+                            <div class="facebook"><a href="https://www.facebook.com/people/Byte-Digital/61550311131920/?is_tour_dismissed=true" target="_blank"><img src="{% static 'myapp/FACEBOOK.svg' %}" alt="Facebook"></a></div>
+                            <div  class="twitter"><a href="https://twitter.com/i/flow/login?redirect_after_login=%2FByteDigital_" target="_blank"><img src="{% static 'myapp/TWITTER.svg' %}" alt="Twitter"></a></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </footer>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        nav = document.querySelector(".headlinks");
+        hamburger.onclick = function() {
+            nav.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>

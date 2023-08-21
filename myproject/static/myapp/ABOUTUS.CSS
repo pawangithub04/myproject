@@ -1,0 +1,1254 @@
+ /* header */
+ body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(90deg, #232526 0%, #414345 100%);
+}
+.header{
+    padding: 85px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    display: flex;
+justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+.byte {
+    color: #F5F5F5;
+    font-family: IBM Plex Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.72px;
+}
+
+.digital {
+    color: #F5F5F5;
+    font-family: IBM Plex Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.52px;
+}
+.headlinks{
+    display: flex;
+width: 50%;
+justify-content: space-between;
+align-items: center;
+}
+.hamburger{
+    display: none;
+}
+.headlinks a:hover {
+color: #8CDFD6;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.48px;
+}
+
+.headlinks a {
+    color: #F5F5F5;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+.no-decoration button:hover{
+    cursor: pointer;
+}
+.no-decoration button{
+    color: #000;
+font-family: IBM Plex Sans;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.46px;
+border-radius: 8px;
+border: 2px solid #32B4A5;
+background: #8CDFD6;
+padding: 15px;
+padding-right: 30px;
+padding-left: 30px;
+}
+.no-decoration{
+    text-decoration: none;
+}
+
+@media(max-width:1654px){
+.header {
+padding: 252px;
+padding-bottom: 24px;
+padding-top: 24px;
+column-gap: 189px;
+}
+.headlinks {
+column-gap: 48px;
+width: auto;
+}
+.byte {
+font-size: 28px;
+letter-spacing: -0.56px;
+}
+.digital {
+font-size: 20px;
+letter-spacing: -0.4px;
+}
+.headlinks a {
+font-size: 16px;
+letter-spacing: -0.32px;
+}
+.no-decoration button {
+font-size: 17px;
+letter-spacing: -0.34px;
+padding: 11px;
+padding-right: 27px;
+padding-left: 27px;
+}
+/* .............footer................. */
+.logo img {
+width: 64px;
+height: 64px;
+}
+.have_project h3 {
+    font-size: 80px;
+}
+.have_convo p {
+    font-size: 32px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+
+}
+.header_book a {
+    font-size: 17px;
+    letter-spacing: -0.34px;
+}
+.add_cmpny-name p {
+    font-size: 32px;
+    letter-spacing: 1.92px;
+    margin-bottom: 16px;
+}
+.cmpny_address p {
+    font-size: 16px;
+    letter-spacing: 0.96px;
+    margin-bottom: 16px;
+
+}
+.cmpny_phn_no a {
+    font-size: 24px;
+    letter-spacing: 1.44px;
+    margin-bottom: 16px;
+    display: block;
+    margin-bottom: 16px;
+}
+.cmpny_email a {
+    font-size: 24px;
+    letter-spacing: 1.44px;
+}
+.cmpny p {
+    font-size: 32px;
+    letter-spacing: 1.92px;
+    margin-bottom: 24px;
+}
+ .service4 {
+    font-size: 16px;
+    letter-spacing: 0.96px;
+    margin-bottom: 0;
+}
+.service3  {
+    font-size: 16px;
+    letter-spacing: 0.96px;
+}
+ .service2{
+    font-size: 16px;
+    letter-spacing: 0.96px;
+}
+.service1 {
+    font-size: 16px;
+    letter-spacing: 0.96px;
+}
+.header_book button {
+    margin-bottom: 40px;
+    padding: 13px;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+.hrline {
+    margin-bottom: 40px;
+}
+.addrs {
+    margin-bottom: 0px;
+}
+.foot {
+    margin-bottom: 40px;
+    margin-top: 32px;
+}
+.footer {
+    padding-right: 120px;
+    padding-left: 120px;
+}
+}
+@media(max-width:1339px){
+.header {
+    padding: 24px 200px;
+
+}
+
+}
+@media(max-width:1227px){
+.header {
+    padding: 24px 150px;
+
+}
+.copy_right ul{
+flex-direction: column;
+}
+.logo_links img {
+margin-right: 10px;
+}
+}
+
+
+/* header */
+/*main*/
+
+.aboutus_child{
+    /* Adding a background image */
+
+color: white; /* Adjust text color for better visibility */
+text-align: center;
+
+}
+.aboutus_main{
+
+background-image: url('ABOUTMAIN.jpg');
+background-repeat: no-repeat;
+background-position: center center;
+
+background-size: cover;
+height: 100%;
+padding: 120px;
+padding-right: 252px;
+padding-left: 252px;
+}
+
+.about_us{
+
+text-align: left;
+width: 100%;
+max-width: 696px;
+
+}
+
+
+.about_us h1{
+    color: var(--secondary, #70C1D6);
+font-family: IBM Plex Sans;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.44px;
+}
+.about_us p {
+    color: #E0E0E0;
+font-family: IBM Plex Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.8px;
+}
+.about_us p span {
+    color: var(--secondary, #70C1D6);
+font-family: IBM Plex Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.8px;
+}
+.rich{
+    padding: 85px;
+padding-top: 100px;
+padding-bottom: 100px;
+background: #70C1D6;
+}
+.rich p {
+    color: #f4f0f0;
+text-align: center;
+font-family: IBM Plex Sans;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.28px;
+margin: 0;
+}
+.rich p span {
+    color: var(--tertiary, #141414);
+font-family: IBM Plex Sans;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.28px;
+}
+.about_sec3{
+    padding: 252px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.who_we_are{
+    display: flex;
+    padding-bottom: 296px;
+    column-gap: 25px;
+}
+#how_do_we{
+    padding-bottom: 0px;
+}
+.who_we{
+    width: 100%;
+max-width: 696px;
+}
+.who_we h3{
+    color: #E0E0E0;
+font-family: IBM Plex Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.8px;
+margin: 0;
+padding-bottom: 16px;
+}
+.who_we h2 {
+    color: #CCC;
+font-family: IBM Plex Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.64px;
+margin: 0;
+padding-bottom: 16px;
+}
+.who_we p {
+    color: #CCC;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: -0.48px;
+margin: 0;
+}
+
+.about_image{
+    border-radius: 24px;
+border: 1px solid #B0DDE8;
+background: #DFF8EB;
+max-width: 695px;
+width: 100%;
+max-height: 400px;
+height: 100%;
+flex-shrink: 0;
+}
+.about_image img{
+    display: block;
+    margin: auto;
+}
+/* footer */
+
+.have_project{
+text-align: center;
+}
+
+.have_project h3{
+color: #000;
+font-family: IBM Plex Sans;
+font-size: 120px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+
+}
+.have_convo{
+text-align: center;
+
+margin: 0;
+}
+.have_convo p{
+color: #000;
+font-family: IBM Plex Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 24px;
+margin-bottom: 48px;
+}
+.header_book button{
+border-radius: 8px;
+border: 2px solid #32B4A5;
+background: #8CDFD6;
+display: block;
+margin: auto;
+padding-left: 64px;
+padding-right: 64px;
+padding-top:24px ;
+padding-bottom:24px ;
+text-align: center;
+margin-bottom: 48px;}
+.header_book a {color: #000;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.48px;
+margin-bottom: 48px;
+}
+
+.add_cmpny-name p {
+color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.92px;
+margin: 0;
+margin-bottom: 16px;
+}
+.cmpny_address p { 
+color: #3D3D3D;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.44px;
+margin: 0;
+margin-bottom: 16px;
+}
+.cmpny_phn_no a{
+color: #3D3D3D;
+font-family: IBM Plex Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.92px;
+margin: 0;
+margin-bottom: 16px;
+}
+.cmpny_email a{
+color: #3D3D3D;
+font-family: IBM Plex Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.92px;
+}
+.cmpny p{
+color: #3D3D3D;
+font-family: IBM Plex Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.92px;
+margin: 0;
+margin-bottom: 24px;
+}
+.service1{
+color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+}
+.service2{
+color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+}
+.service3{
+color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+}
+.service4{
+color: #1F1F1F;
+font-family: IBM Plex Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.44px;
+margin-bottom: 16px;
+}
+.copyright a{
+color: #3D3D3D;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.96px;
+}
+.tndc a{
+color: #292929;
+font-family: IBM Plex Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.02px;
+}
+.privacy-policy a{
+color: #292929;
+font-family: IBM Plex Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.02px;
+}
+.footer{
+padding: 85px;
+background: #98D2E1;
+}
+.footer_table_sec{
+display: flex;
+justify-content: space-between;
+}
+.common_links{
+display: flex;
+justify-content: space-between;
+margin: 0;
+margin-top: 40px;
+align-items: center;
+}
+.copy_right ul {
+display: flex;
+justify-content: space-around;
+padding-left: 0px;
+list-style: none;
+
+}
+.logo_links{
+display: flex;
+width: 180px;
+justify-content: space-between;
+
+}
+
+.copy_right{
+width: 800px;
+}
+.links{
+display: flex;
+flex-direction: column;
+}
+.addrs{
+width: 690px;
+margin-bottom: 80px;
+}
+.hrline{
+height: 3px;
+stroke-width: 4px;
+background: #292929;
+margin-bottom: 80px;
+}
+hr{
+margin: 0;
+}
+a{
+text-decoration: none;
+}
+.foot{
+height: 2px;
+stroke-width: 4px;
+background: #3D3D3D;
+margin-bottom: 80px;
+}
+
+@media(max-width:1766px){
+.header {
+column-gap: 321px;
+}
+.about_sec3 {
+padding: 200px;
+padding-top: 150px;
+padding-bottom: 150px;
+}
+}
+@media(max-width:1666px){
+.about_sec3 {
+padding: 150px;
+padding-top: 150px;
+padding-bottom: 150px;
+}
+.header {
+column-gap: 221px;
+}
+}
+@media(max-width:1566px){
+.about_sec3 {
+padding: 150px;
+padding-top: 150px;
+padding-bottom: 150px;
+}
+.headlinks {
+column-gap: 38px;
+
+}
+.header {
+column-gap: 200px;
+}
+}
+@media(max-width:1512px){
+.byte {
+font-size: 28px;
+letter-spacing: -0.56px;}
+.digital {
+font-size: 20px;
+letter-spacing: -0.4px;
+}
+.headlinks a {
+font-size: 16px;
+letter-spacing: -0.32px;
+}
+.about_us h1 {
+font-size: 72px;
+letter-spacing: -1.44px;
+margin: 0;
+}
+.about_us p {
+font-size: 32px;;
+letter-spacing: -0.64px;
+margin: 0;
+}
+.about_us p span {
+font-size: 32px;
+letter-spacing: -0.64px;
+}
+.who_we h3 {
+font-size: 32px;
+letter-spacing: -0.48px;
+}
+.who_we h2 {
+font-size: 24px;
+letter-spacing: -0.64px; 
+}
+.who_we p {
+font-size: 16px;
+letter-spacing: -0.32px;
+}
+.no-decoration button {
+font-size: 17px;
+letter-spacing: -0.34px;
+padding: 11px;
+padding-right: 27px;
+padding-left: 27px;
+}
+.about_image {
+border-radius: 24px;
+max-width: 432px;
+width: 100%;
+max-height: 278px;
+height: 100%;
+flex-shrink: 0;
+}.about_image img {
+width: 218px;
+height: 276px;
+margin-top: 40px;
+}
+#laptop{
+width: 388px;
+height: 271px;
+flex-shrink: 0;
+}
+.logo img{
+width: 64px;
+height: 64px;
+}
+.about_sec3 {
+padding: 80px 280px;
+}
+.who_we_are {
+justify-content: space-around;
+padding-bottom: 98px;
+align-items: center;
+}
+.rich{
+display: none;
+}
+.aboutus_main {
+padding: 120px;
+padding-right: 280px;
+padding-left: 280px;
+}
+/* ...................footer.............. */
+.have_project h3 {
+    font-size: 80px;
+}
+.have_convo p {
+    font-size: 32px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+
+}
+.header_book a {
+    font-size: 17px;
+    letter-spacing: -0.34px;
+}
+.add_cmpny-name p {
+    font-size: 32px;
+    letter-spacing: 1.92px;
+    margin-bottom: 16px;
+}
+.cmpny_address p {
+    font-size: 16px;
+    letter-spacing: 0.96px;
+    margin-bottom: 16px;
+
+}
+.cmpny_phn_no a {
+    font-size: 24px;
+    letter-spacing: 1.44px;
+    margin-bottom: 16px;
+    display: block;
+    margin-bottom: 16px;
+}
+.cmpny_email a {
+    font-size: 24px;
+    letter-spacing: 1.44px;
+}
+.cmpny p {
+    font-size: 32px;
+    letter-spacing: 1.92px;
+    margin-bottom: 24px;
+}
+ .service4 {
+    font-size: 16px;
+    letter-spacing: 0.96px;
+    margin-bottom: 0;
+}
+.service3  {
+    font-size: 16px;
+    letter-spacing: 0.96px;
+}
+ .service2{
+    font-size: 16px;
+    letter-spacing: 0.96px;
+}
+.service1 {
+    font-size: 16px;
+    letter-spacing: 0.96px;
+}
+.header_book button {
+    margin-bottom: 40px;
+    padding: 13px;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+.hrline {
+    margin-bottom: 40px;
+}
+.addrs {
+    margin-bottom: 0px;
+}
+.foot {
+    margin-bottom: 40px;
+    margin-top: 32px;
+}
+.footer {
+    padding-right: 120px;
+    padding-left: 120px;
+}
+}
+@media(max-width:1410px){
+.aboutus_main {
+padding: 120px;
+padding-right: 230px;
+padding-left: 230px;
+}
+.about_sec3 { padding-right: 230px;
+padding-left: 230px;}
+.header{
+    padding-right: 230px;
+padding-left: 230px;
+}
+}
+@media(max-width:1370px){
+.aboutus_main {
+padding: 120px;
+padding-right: 180px;
+padding-left: 180px;
+
+}
+.about_sec3 { padding-right: 180px;
+padding-left: 180px;}
+.header{
+    padding-right: 180px;
+padding-left: 180px;
+}
+}
+@media(max-width:1240px){
+.aboutus_main {
+padding: 120px;
+padding-right: 130px;
+padding-left: 130px;
+
+}
+.about_sec3 { padding-right: 130px;
+padding-left: 130px;}
+.header{
+    padding-right: 130px;
+padding-left: 130px;
+}
+}
+@media(max-width:1088px){
+.aboutus_main {
+padding: 100px;
+padding-right: 100px;
+padding-left: 100px;
+
+}
+.about_sec3 { padding-right: 100px;
+padding-left: 100px;}
+.header{
+    padding-right: 100px;
+padding-left: 100px;
+}
+}
+@media only screen and (max-width: 1146px) {
+.header{align-items: center;
+justify-content: space-between;}
+.headlinks{display: none;}
+header .hamburger {
+    display: block;
+}
+
+header .headlinks {
+    margin: 0;
+    position: absolute;
+    top: -100%;
+    left: 0;
+   
+    height: fit-content;
+    background: linear-gradient(90deg, #232526 0%, #414345 100%);
+    transition: 0.3s;
+    text-align: center;
+    z-index: 2;
+    
+}
+.headlinks .active{
+    width: 100%;
+}
+
+
+header .headlinks.active {
+    top: 87px;
+    width: -webkit-fill-available;
+    padding: 0 120px;
+    height: 34.2%;
+}
+header .headlinks.active .no-decoration{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+header .headlinks.active .no-decoration button{
+    width: 100%;
+}
+header .headlinks  {
+    display: block;
+}
+
+.hamburger div{
+    width: 30px;
+height: 2px;
+margin: 6px 0;
+background: #fff;
+}
+}
+
+@media(max-width:950px){
+.about_us {
+max-width: 364px;
+}
+.about_us h1 {
+font-size: 48px;
+letter-spacing: -0.96px;
+margin: 0;
+}
+.about_us p {
+font-size: 16px;;
+letter-spacing: -0.32px;
+margin: 0;
+}
+.about_us p span {
+font-size: 16px;
+letter-spacing: -0.32px;
+}
+.who_we h3 {
+
+font-size: 24px;
+letter-spacing: -0.48px; 
+}
+.who_we h2 {
+font-size: 16px;
+letter-spacing: -0.32px;
+}
+.who_we p {
+font-size: 16px;
+letter-spacing: -0.32px;
+}
+.no-decoration button {
+font-size: 17px;
+letter-spacing: -0.34px;
+padding: 11px;
+padding-right: 27px;
+padding-left: 27px;
+}
+.about_image {
+border-radius: 24px;
+max-width: 282px;
+width: 100%;
+max-height: 200px;
+height: 100%;
+flex-shrink: 0;
+}.about_image img {
+width: 149px;
+height: 188px;
+margin-top: 32px;
+}
+#laptop{
+width: 268px;
+height: 187px;
+flex-shrink: 0;
+}
+.logo img{
+width: 40px;
+height: 40px;
+}
+.about_sec3 {
+padding: 80px 
+}
+.who_we_are {
+justify-content: space-around;
+padding-bottom: 80px;
+align-items: center;
+}
+.rich{
+display: none;
+}
+.aboutus_main {
+padding: 80px;
+padding-right: 80px;
+padding-left: 80px;
+}
+.byte-digital{
+display: none;
+}
+/* ...................footer.............. */
+.have_project h3 {
+    font-size: 40px;
+}
+.have_convo p {
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+
+}
+.header_book a {
+    font-size: 17px;
+    letter-spacing: -0.34px;
+}
+.add_cmpny-name p {
+    font-size: 24px;
+    letter-spacing: 1.44px;
+    margin-bottom: 16px;
+}
+.cmpny_address p {
+    font-size: 16px;
+    letter-spacing: 0.96px;
+    margin-bottom: 16px;
+
+}
+.cmpny_phn_no a {
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    margin-bottom: 16px;
+    display: block;
+    
+}
+.cmpny_email a {
+    font-size: 20px;
+    letter-spacing: 1.2px;
+}
+.cmpny p {
+    font-size: 24px;
+    letter-spacing: 1.44px;
+    margin-bottom: 24px;
+}
+.header_book button {
+    margin-bottom: 40px;
+    padding: 11px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+.hrline {
+    margin-bottom: 16px;
+}
+.addrs {
+    margin-bottom: 0px;
+}
+.foot {
+   
+    margin-top: 24px;
+}
+.footer {
+   padding: 80px;
+}
+.addrs {
+width: 45%;
+}
+}
+@media(max-width:786px){
+.copyright{
+    width: 70%;
+}
+}
+@media(max-width:780px){
+.who_we_are{
+    flex-direction: column;
+}
+#speaking{
+    flex-direction: column-reverse;
+}
+.aboutus_main {
+padding: 80px;
+padding-right: 16px;
+padding-left: 16px;
+background: none;
+}
+.about_sec3 {
+padding: 80px 16px;
+}
+.about_image {
+max-width: 535px;
+}
+.about_image {
+margin-bottom: 36px;
+}
+.who_we_are {
+padding-bottom: 40px;
+}
+.header {
+padding-right: 16px;
+padding-left: 16px;
+}
+.have_project h3 {
+font-size: 24px;
+}
+.have_convo p {
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+
+}
+.header_book a {
+    font-size: 15px;
+    letter-spacing: -0.3px;
+}
+.add_cmpny-name p {
+    font-size: 24px;
+    letter-spacing: 1.44px;
+    margin-bottom: 8px;
+}
+.cmpny_address p {
+    font-size: 14px;
+    letter-spacing: 0.84px;
+    margin-bottom: 8px;
+
+}
+.cmpny_phn_no a {
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    margin-bottom: 8px;
+    display: block;
+    
+}
+.cmpny_email a {
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    
+}
+.cmpny_email{
+    margin-bottom: 24px;
+}
+.cmpny p {
+    font-size: 24px;
+    letter-spacing: 1.44px;
+    margin-bottom: 24px;
+}
+ .service4 {
+    font-size: 15px;
+    letter-spacing: 0.9px;
+    margin-bottom: 0;
+    color: #666;
+    margin-bottom: 0;
+}
+.service3  {
+    font-size: 15px;
+    letter-spacing: 0.9px;
+    color: #666;
+    margin-bottom: 0;
+}
+ .service2{
+    font-size: 15px;
+    letter-spacing: 0.9px;
+    color: #666;
+    margin-bottom: 0;
+}
+.service1 {
+    font-size: 15px;
+    letter-spacing: 0.9px;
+    color: #666;
+letter-spacing: 0.9px;
+margin-bottom: 0;
+}
+.header_book button {
+    margin-bottom: 24px;
+    padding: 13px;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+.hrline {
+    margin-bottom: 24px;
+}
+.addrs {
+   margin-bottom: 8px;
+    width: 100%;
+}
+
+.foot {
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+.footer {
+    padding-right: 16px;
+    padding-left: 16px;
+    padding: 32px;
+}
+
+.links p {
+    display: flex;
+}
+.footer_table_sec {
+    flex-direction: column;
+}
+.cmpny{
+    display: none;
+}
+.addrs::after{
+    content: "Company";
+    color: #1F1F1F;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.44px;
+}
+.copy_right {
+    width: 100%;
+    color: #3D3D3D;
+    font-size: 16px;
+    letter-spacing: 0.96px;
+}
+.copyright{
+    width: 100%;
+}
+.common_links {
+    flex-direction: column-reverse;
+    align-items: normal;
+    margin-top: 0px;
+    gap: 16px;
+}
+.links {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+}
+.copy_right ul {
+display: flex;
+gap: 16px;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;}
+.tndc a{
+    width: 40%;
+    color: #666;
+    font-size: 14px;
+    letter-spacing: 0.84px;
+    
+
+}
+.tndc{
+    padding-right: 16px;
+}
+.privacy-policy a{
+    width: 40%;
+    color: #666;
+    font-size: 14px;
+    letter-spacing: 0.84px;
+}
+.privacy-policy{
+    width: 40%;
+}
+header .headlinks.active {
+    height: 58.2%;
+}
+.about_us h1 {
+font-size: 32px;
+letter-spacing: -0.64px;
+}
+.about_us {
+    width: 100%;
+}
+header .headlinks.active .no-decoration button{
+    width: 100%;
+}
+header .headlinks.active {
+    padding: 0;
+}
+}

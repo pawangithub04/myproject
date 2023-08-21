@@ -1,0 +1,125 @@
+.accordion {
+    background: none;
+    color: #F5F5F5;
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.8px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 48px;
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+    border: #70C1D6;
+    border: solid;
+    border: 3px;
+    cursor: pointer;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    color: #ADADAD;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+    display: none;
+    overflow: hidden;
+}
+
+.accordion:after {
+    content: ' \2303';
+    font-size: 30px;
+    color: #ededed;
+    float: right;
+    margin-left: 5px;
+    font-weight: bolder;
+    
+    position: relative;
+    top: 4px;
+    
+    
+}
+
+.accordion.active:after {
+    content: '\2303';
+    transform: rotate(180deg);
+    
+}
+
+.panel {
+    
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.FAQs{
+    color: #F5F5F5;
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.8px;
+}
+.frame-child18{
+    background: #70C1D6;
+    height: 7px;
+    width: 100%;
+    max-width: 301px;
+    margin-top: 24;
+    margin-bottom: 48px;
+}
+.some-of-the{
+    color: #F5F5F5;
+    font-family: IBM Plex Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.28px;
+}
+.accordion{
+    color: #F5F5F5;
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.8px;
+}
+.panel p{
+    color: #ADADAD;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+    margin-bottom: 48px;
+        }
+.panel{
+    background: none;
+}
+.dr{
+    padding: 85px;
+    
+}
+.divider{
+   
+    height: 3px;
+    background: #CCC;
+}

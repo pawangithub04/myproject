@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section_4 {
+    padding: 85px;
+    background: #3D3D3D;
+
+}
+
+
+#image1 {
+    width: 60%;
+    
+    height: 100%;
+    border-radius: 24px;
+    background: linear-gradient(0deg, #000 0%, rgba(63, 63, 63, 0.68) 42.71%, rgba(196, 196, 196, 0.00) 100%);
+    background-image: url("sec4img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    margin-right: 24px;
+    margin-bottom: 24px;
+    border: 2px solid #B0DDE8;
+    padding: 40px;
+    padding-top: 332px;
+}
+
+
+    #image2 {
+        /* max-width: 400px; */
+        width: 37%;
+        height: 100%;
+        border-radius: 24px;
+        background: linear-gradient(0deg, #000 0%, rgba(63, 63, 63, 0.68) 42.71%, rgba(196, 196, 196, 0.00) 100%);
+        /* margin-bottom: 24px; */
+        background-image: url("Group 15 (1) copy.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* max-width: 415px; */
+        margin-bottom: 24px;
+        border: 2px solid #B0DDE8;
+        padding: 40px;
+        padding-top: 332px;
+        margin-right: 6px;
+    }
+
+
+
+
+
+#image3 {
+    /* max-width: 400px; */
+    width: 37%;
+    
+    height: 100%;
+    border-radius: 24px;
+    background: linear-gradient(0deg, #000 0%, rgba(63, 63, 63, 0.68) 42.71%, rgba(196, 196, 196, 0.00) 100%);
+    /* margin-right: 24px; */
+    background-image: url("Group 16 (1) copy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+    margin-right: 24px;
+    border: 2px solid #B0DDE8;
+    padding: 40px;
+    padding-top: 332px;
+    
+
+}
+
+#image4 {
+    /* max-width: 800px; */
+    width: 60%;
+    height: 100%;
+    
+    border-radius: 24px;
+    background: linear-gradient(0deg, #000 0%, rgba(63, 63, 63, 0.68) 42.71%, rgba(196, 196, 196, 0.00) 100%);
+
+    background-image: url('Group 17 (1) copy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    border: 2px solid #B0DDE8;
+    padding: 40px;
+    padding-top: 332px;
+}
+
+
+#our_work3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* max-width: 1353px; */
+    /* padding: 85px; */
+    
+    /* height: 944px; */
+    height: 100%;
+    padding-bottom: 24px;
+}
+
+.ourwork {
+    width: 100%;
+    
+}
+
+#our_work1 {
+    color: #F5F5F5;
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.8px;
+}
+
+#our_work2 {
+    color: #F5F5F5;
+    font-family: IBM Plex Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    /* 60px */
+}
+
+.casestudy {
+    color: #FFF;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    /* 40px */
+}
+
+.container411 {
+    color: #FFF;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    /* 30px */
+}
+
+
+.container43 {
+    
+    
+    height: 100%;
+    width: 100%;
+    max-width: 398px;
+    max-height: 144px;
+}
+
+.line {
+    
+    height: 8px;
+    background: #70C1D6;
+    width: 100%;
+    max-width: 175px;
+}
+
+#our_work2 p {
+    
+    padding-top:48px ;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.imagesec1ourwrk
+{display: flex;
+flex-direction: row;
+width: 100%;
+flex-wrap: wrap;}

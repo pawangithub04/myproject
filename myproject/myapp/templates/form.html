@@ -1,0 +1,582 @@
+{% load static %}
+<!--<!DOCTYPE html>-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=IBM Plex Sans:wght@400;500;700&display=swap" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@100;200;300&display=swap"
+        rel="stylesheet">
+<!--        <link rel="stylesheet" href="/contactuscss/contactusforlive.css">-->
+<!--        <link rel="stylesheet" href="/contactuscss/mediatag.css">-->
+        <link rel="stylesheet" type="text/css" href="{% static 'myapp/contactusforlive.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'myapp/mediatag.css' %}">
+
+    <style>
+        /* @media (min-width: 1659px) {
+  .classm1 {
+    padding:  200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+  }
+  .class{
+    padding-left: 180px;
+  }
+  .book{
+    padding-bottom: 250px;
+  }
+}
+@media (min-width: 1850px) {
+  .classm1 {
+    padding:  240px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+  }
+  .class{
+    padding-left: 220px;
+  }
+  .book{
+    padding-bottom: 250px;
+  }
+}
+@media (min-width: 1850px) {
+  .classm1 {
+    padding:   280px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+  }
+  .class{
+    padding-left: 260px;
+  }
+  .call_us{
+    padding-bottom: 176px;
+  }
+  .book{
+    padding-bottom: 250px;
+  }
+}
+
+
+
+
+
+@media (max-width: 1513px) {
+    .content-box h3 {
+
+font-size: 32px;
+
+letter-spacing: 0.32px;
+margin: 0;
+
+}
+.class2 a img{
+  height: 64px;
+}
+.your-full-name {
+    margin-bottom: 8px;
+}
+
+
+.toggle-button {
+     padding: 13px;
+     padding-left: 0;
+    padding-top: 9px;
+    padding-bottom: 16px;}
+
+
+
+
+.content-box p {
+
+font-size: 20px;
+margin: 0px;
+    margin-top: 16px;
+
+
+letter-spacing: 0.24px;
+}
+.content-box p strong{
+
+font-size: 20px;
+
+letter-spacing: 0.2px;
+}
+.contact-info h3 {
+
+font-size: 20px;
+
+letter-spacing: -0.4px;
+}
+.contact-info p {
+
+font-size: 16px;
+margin-top: 4px;
+margin-bottom: 16px;
+
+}
+.email-link {
+font-size: 20px;
+;
+}
+input#name{
+  height: 44px;
+}
+input#phone_number{
+  height: 44px;
+}
+input#email{
+  height: 44px;
+}
+input#subject{
+  height: 44px;
+}
+textarea#Message{
+  height: 240px;
+}
+.horizontal-button button {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-right: 32px;
+  padding-left: 32px;
+  font-size: 17px;
+
+  font-weight: 500;
+
+  letter-spacing: -0.32px;
+}
+.toggle-button label {
+
+  padding: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+}
+.your-full-name {
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  margin-bottom: 8px;
+}
+
+
+.select h3 {
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  padding-bottom: 8px;
+}
+.classm1{
+  padding: 280px;
+  padding-top: 39px;
+  padding-bottom: 56px;
+}
+.class{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 280px;
+  padding-right: 280px;
+}
+.class3 b{
+  font-size: 28px;
+  letter-spacing: -0.56px;
+}
+.digital{
+  font-size: 20px;
+  letter-spacing: -0.4px;
+}
+
+.chat-us {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.book{
+    padding: 32px;
+}
+.call_us {
+    display: flex;
+    padding-bottom: 247px;
+}
+}
+@media (max-width: 1372px){
+    .call_us {
+        padding-bottom: 227px;
+    }
+    .classm1{
+        padding-left: 160px;
+    padding-right: 160px;
+}
+.class{
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+}
+
+@media (max-width: 1316px){
+    .call_us {
+
+    padding-bottom: 200px;
+}
+}
+@media (max-width: 1311px){
+    .call_us {
+
+    padding-bottom: 247px;
+}
+}
+
+@media (max-width: 1132px){
+    .call_us {
+
+    padding-bottom: 292px;
+}
+}
+@media (max-width: 1117px){
+    .call_us {
+
+    padding-bottom: 267px;
+}
+}
+@media (max-width: 1088px){
+    .call_us {
+
+    padding-bottom: 242px;
+}
+}
+@media (max-width: 1067px){
+    .call_us {
+
+    padding-bottom: 215px;
+}
+}
+@media (max-width: 1057px){
+    .call_us {
+
+    padding-bottom: 191px;
+}
+}
+@media (max-width: 1032px){
+    .class{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .classm1{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .call_us{
+        padding-bottom: 247px;
+    }
+}
+@media (max-width: 972px){
+    .call_us {
+
+    padding-bottom: 292px;
+}
+}
+@media (max-width: 1032px){
+    .class{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .classm1{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .call_us{
+        padding-bottom: 248px;
+    }
+}
+@media (max-width: 912px){
+    .call_us {
+
+    padding-bottom: 292px;
+}
+}
+@media (max-width: 897px){
+    .call_us {
+
+    padding-bottom: 268px;
+}
+}
+@media (max-width: 868px){
+    .call_us {
+
+    padding-bottom: 242px;
+}
+}
+@media (max-width: 847px){
+    .call_us {
+
+    padding-bottom: 216px;
+}
+}
+@media (max-width: 837px){
+   .subclassm1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.boook{
+    width: 68%;
+    margin-bottom: 24px;
+}
+.form{
+    width: 77%;
+}
+.call_us {
+
+    padding-bottom: 35px;
+}
+}
+/* for phone  */
+/* @media (max-width: 550px){
+    .class3{
+        display: none;
+    }
+    .class{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+
+    }
+    .classm1{
+        padding-top: 24px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .boook{
+        padding: 16px;
+        width: 92%;
+    }
+    .form{
+        width: 98%;
+    }
+    .content-box h3 {
+
+font-size: 24px;
+
+letter-spacing: 0.24px;
+
+margin: 0;
+padding-right: 70px;
+
+}
+.class2 a img{
+  height: 64px;
+}
+.your-full-name {
+    margin-bottom: 8px;
+}
+
+
+.toggle-button {
+     padding: 13px;
+     padding-left: 0;
+    padding-top: 9px;
+    padding-bottom: 16px;}
+
+
+
+
+.content-box p {
+
+font-size: 16px;
+margin: 0px;
+    margin-top: 16px;
+    font-weight: 400;
+
+letter-spacing: 0.16px;
+}
+.content-box p strong{
+
+font-size: 16px;
+font-weight: 900;
+letter-spacing: 0.16px;
+}
+.contact-info h3 {
+
+font-size: 20px;
+
+letter-spacing: -0.4px;
+}
+.contact-info p {
+
+font-size: 16px;
+margin-top: 4px;
+margin-bottom: 16px;
+
+}
+.email-link {
+font-size: 16px;
+
+}
+.class2 a img{
+  height: 40px;
+}
+
+
+
+}  */
+
+
+
+
+
+
+
+
+    </style>
+
+
+
+
+</head>
+
+
+
+<body>
+    <header>
+        <div class="class">
+            <div class="class2">
+                <a href="{% url 'bytedigital' %}"><img src="{% static 'myapp\byteLOGO.svg' %}" alt=""></a>
+            </div>
+            <div class="class3">
+                <a href="{% url 'bytedigital' %}"><b class="book-a-free">Byte</b></a>
+                <a href="{% url 'bytedigital' %}"><div class="digital">Digital</div></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="classm1">
+            <div class="subclassm1">
+                <div class="boook">
+                    <div class="content-box">
+                        <h3><strong>Book your free consultation</strong></h3>
+                        <p>Free in-depth consultations to understand your project needs,
+                            budget, and marketing direction. Leverage our 20 years of experience
+                            for clear planning and guidance.</p>
+                        <p><strong>No pressure, no obligation and absolutely no cost.</strong></p>
+                    </div>
+                    <div class="chat-us">
+                        <div class="chat_us">
+                            <img class="contact-icon" src="{% static 'myapp\chatUS.svg' %}" alt="Telephone Icon">
+
+                        </div>
+                        <div class="contact-info">
+                            <h3>Chat with us</h3>
+                            <p>Our friendly team is here to help.</p>
+                            <a class="email-link" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">hello@byte-digital.com.au</a>
+                        </div>
+                    </div>
+                    <div class="call_us">
+                        <div class="call-us" id="call-us">
+                            <img class="call-icon" src="{% static 'myapp\phone.svg' %}" alt="Telephone Icon">
+
+                        </div>
+
+                        <div class="contact-info">
+                            <h3>Call us</h3>
+                            <p>Mon - Fri from 8am to 5 pm</p>
+                            <a class="email-link" href="tel:+61-452515004">+61-452515004</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form">
+                    <form method="post">
+                        {% csrf_token %}
+                        <div class="your-full-name-parent">
+                            <div class="your-full-name"><label for="name">Name:</label></div>
+                            <div class="frame-inner"><input type="text" id="name" name="name" required></div>
+
+                        </div>
+                        <div class="your-phone-number-parent">
+                            <div class="your-full-name"><label for="phone_number">Your phone number</label></div>
+                            <div class="frame-inner"><input type="tel" id="phone_number" name="phone_number" required></div>
+                        </div>
+                        <div class="your-email-address-parent">
+                            <div class="your-full-name"><label id="email-label" for="email">Your email address</label></div>
+                            <div class="frame-inner"><input type="email" id="email"  name="email" required></div>
+                            <span id="email-error"></span>
+                        </div>
+                        <div class="subject-parent">
+                            <div class="your-full-name"><label for="subject">Subject</label></div>
+                            <div class="frame-inner"><input type="text" id="subject" name="subject" required></div>
+                        </div>
+                        <div class="message-parent">
+                            <div class="your-full-name"><label for="name"></label>Message</div>
+                            <div class="frame-child3"><textarea type="text" id="Message" name="message" required
+                                    rows="5" column="6"></textarea></div>
+                        </div>
+
+                        <div class="select">
+                            <h3>I am looking for:</h3>
+                        </div>
+                        <div class="toggle-buttons-container">
+
+                            <div class="toggle-button">
+                                <input type="checkbox" name="services" value="UX and UI Design" id="option-1">
+                                <label for="option-1">UX and UI Design</label>
+                            </div>
+
+                            <div class="toggle-button">
+                                <input type="checkbox" name="services" value="Web development" id="option-2">
+                                <label for="option-2">Web development</label>
+                            </div>
+
+                            <div class="toggle-button">
+                                <input type="checkbox" name="services" value="SEO" id="option-3">
+                                <label for="option-3">SEO</label>
+                            </div>
+
+                            <div class="toggle-button">
+                                <input type="checkbox" name="services" value="hosting and maintenance" id="option-4">
+                                <label for="option-4">hosting and maintenance</label>
+                            </div>
+
+                            <div class="toggle-button">
+                                <input type="checkbox" name="services" value="App development" id="option-5">
+                                <label for="option-5">App development</label>
+                            </div>
+                        </div>
+                        <div class="horizontal-button">
+
+
+                            <a href="{% url 'thankyou' %}" ><button id="clickButton" type="submit">Book a free consultation</button></a>>
+
+                        </div>
+
+                    </form>
+
+            </div>
+        </div>
+
+    </main>
+
+    </div>
+<script src="/submitbutton.js">
+
+
+</script>
+</body>
+
+</html>
