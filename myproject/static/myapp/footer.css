@@ -204,6 +204,7 @@ letter-spacing: 1.02px;
 .links{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .addrs{
     width: 690px;
@@ -222,8 +223,8 @@ a{
     text-decoration: none;
 }
 .foot{
-    height: 3px;
+    height: 2px;
 stroke-width: 4px;
-background: #292929;
+background: #3d3d3d;
 margin-bottom: 80px;
 }

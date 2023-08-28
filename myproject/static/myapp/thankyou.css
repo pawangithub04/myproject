@@ -176,7 +176,7 @@ line-height: normal;
 letter-spacing: 1.02px;
 }
 .footer{
-padding: 85px;
+padding: 250px;
 background: #98D2E1;
 }
 .footer_table_sec{
@@ -228,13 +228,13 @@ a{
 text-decoration: none;
 }
 .foot{
-height: 3px;
+height: 2px;
 stroke-width: 4px;
-background: #292929;
+background: #3d3d3d;
 margin-bottom: 80px;
 }
 .header{
-padding: 85px;
+padding: 280px;
 padding-bottom: 24px;
 padding-top: 24px;
 display: flex;
@@ -264,8 +264,8 @@ letter-spacing: -0.52px;
 }
 .headlinks{
 display: flex;
-width: 50%;
-justify-content: space-between;
+column-gap: 40px;
+
 align-items: center;
 }
 .hamburger{
@@ -274,64 +274,8 @@ display: none;
 .womenSelfie{
 display: none;
 }
-/* @media screen and (max-width: 1099px){
-.headlinks{
-display: flex;
-width: 70%;
-justify-content: space-between;
-align-items: center;
-}
-.headlinks a {
-color: #F5F5F5;
-font-family: IBM Plex Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -0.48px;
-
-}
-.no-decoration button{
-color: #000;
-font-family: IBM Plex Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: -0.46px;
-border-radius: 8px;
-border: 2px solid #32B4A5;
-background: #8CDFD6;
-}
-.byte {
-color: #F5F5F5;
-font-family: IBM Plex Sans;
-font-size: 31px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: -0.72px;
-}
-.digital {
-color: #F5F5F5;
-font-family: IBM Plex Sans;
-font-size: 21px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: -0.52px;
-}
-
-} */
-
 .headlinks a:hover {
 color: #8CDFD6;
-font-family: IBM Plex Sans;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: -0.48px;
 }
 
 .headlinks a {
@@ -562,8 +506,7 @@ margin-bottom: 40px;
 margin-top: 32px;
 }
 .footer {
-padding-right: 120px;
-padding-left: 120px;
+padding: 80px 120px ;
 }
 
 }
@@ -612,7 +555,80 @@ width: 45%;
 margin-right: 10px;
 }
 
+
 }
+@media only screen and (max-width: 1150px) {
+    .header{align-items: center;
+    justify-content: space-between;}
+    .headlinks{display: none;}
+    header .hamburger {
+    display: block;
+    }
+    
+    header .headlinks {
+    margin: 0;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    
+    height: fit-content;
+    background: linear-gradient(90deg, #232526 0%, #414345 100%);
+    transition: 0.3s;
+    text-align: center;
+    z-index: 2;
+    
+    }
+    .headlinks .active{
+    width: 100%;
+    }
+    
+    
+    header .headlinks.active {
+    top: 100px;
+    width: -webkit-fill-available;
+    padding: 0 120px;
+    height: 34.2%;
+    }
+    header .headlinks.active .no-decoration{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    }
+    header .headlinks.active .no-decoration button{
+    width: 100%;
+    }
+    header .headlinks  {
+    display: block;
+    }
+    
+    .hamburger div{
+    width: 30px;
+    height: 2px;
+    margin: 6px 0;
+    background: #fff;
+    }
+    }
+    @media(max-width:450px){
+    .logo img {
+    width: 40px;
+    height: 40px;
+    }
+    .header {
+    padding: 10px 16px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    }
+    .womenSelfie {
+    width: 100%;
+    height: 100%;
+    }
+    header .headlinks.active {
+    padding: 0 16px;
+    }
+    header .headlinks.active {
+    height: 58%;
+    }
+    }
 @media(max-width:1084px){
 .thankyou_image img {
 width: 600px;
@@ -648,6 +664,11 @@ padding-top: 24px;
 }
 }
 @media(max-width:795px){
+    header .headlinks.active {
+        top: 100px;
+        height: 65.2%;
+    }
+   
 .thankyouImage{
 display: none;
 }
@@ -863,76 +884,4 @@ display: block;
 margin-top: 32px;
 }
 
-}
-@media only screen and (max-width: 1146px) {
-.header{align-items: center;
-justify-content: space-between;}
-.headlinks{display: none;}
-header .hamburger {
-display: block;
-}
-
-header .headlinks {
-margin: 0;
-position: absolute;
-top: -100%;
-left: 0;
-
-height: fit-content;
-background: linear-gradient(90deg, #232526 0%, #414345 100%);
-transition: 0.3s;
-text-align: center;
-z-index: 2;
-
-}
-.headlinks .active{
-width: 100%;
-}
-
-
-header .headlinks.active {
-top: 100px;
-width: -webkit-fill-available;
-padding: 0 120px;
-height: 34.2%;
-}
-header .headlinks.active .no-decoration{
-margin-top: 24px;
-margin-bottom: 24px;
-}
-header .headlinks.active .no-decoration button{
-width: 100%;
-}
-header .headlinks  {
-display: block;
-}
-
-.hamburger div{
-width: 30px;
-height: 2px;
-margin: 6px 0;
-background: #fff;
-}
-}
-@media(max-width:450px){
-.logo img {
-width: 40px;
-height: 40px;
-}
-.header {
-padding: 10px 16px;
-justify-content: space-between;
-flex-wrap: nowrap;
-flex-direction: row;
-}
-.womenSelfie {
-width: 100%;
-height: 100%;
-}
-header .headlinks.active {
-padding: 0 16px;
-}
-header .headlinks.active {
-height: 58%;
-}
 }

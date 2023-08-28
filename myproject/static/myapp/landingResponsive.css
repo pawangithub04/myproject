@@ -66,6 +66,9 @@
         font-size: 40px;
         letter-spacing: -0.8px;
     }
+    .underline {
+        margin-top: 16px;
+    }
     #content32 p {
         font-size: 32px;
         line-height: 125%; /* 40px */
@@ -87,6 +90,9 @@
     #our_work2 {
         font-size: 32px;
         line-height: 125%; /* 40px */
+    }
+    .line{
+        margin-top: 16px;
     }
     .casestudy {
         font-size: 32px;
@@ -135,6 +141,7 @@
     }
     .frame-child15 {
         margin: 0;
+        margin-top: 16px;
     }
     .rectangle-wrapper {
         height: 310px;
@@ -182,6 +189,7 @@
     }
     .line-div {
         margin-bottom: 40px;
+        margin-top: 16px;
     }
     .dots {
         padding-top: 40px;
@@ -212,10 +220,15 @@
       .panel p {
         font-size: 24px;
         letter-spacing: -0.48px;
-        margin-bottom: 40px;
+        
       }
+      .faqcontent{
+        font-size: 24px;
+        letter-spacing: -0.48px;
+    }
       .frame-child18 {
         margin-bottom: 40px;
+        margin-top: 16px;
       }
       .dr {
         padding-right: 120px;
@@ -589,7 +602,7 @@ letter-spacing: -0.3px;
     padding-bottom: 24px;
 }
    .line{
-           width: 100px;
+           width: 116px;
     height: 4px;
     margin-top: 16px;
    }
@@ -774,6 +787,7 @@ letter-spacing: -0.48px;
       .accordion p {
         width: 100%;
     max-width: 270px;
+    text-align: left;
       }
       .panel p {
 
@@ -781,6 +795,11 @@ font-size: 20px;
 
 letter-spacing: -0.4px;
         margin-bottom: 16px;
+      }
+      .faqcontent{
+        font-size: 20px;
+
+letter-spacing: -0.4px;
       }
      .frame-child18 {
     margin-bottom: 40px;

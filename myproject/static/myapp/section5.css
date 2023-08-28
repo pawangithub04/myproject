@@ -11,18 +11,11 @@
     padding: 48px;
     margin-bottom: 24px;
 }
-.rectangle-wrapper5 {
+#rectangle-wrapper5 {
     
-    width: 100%;
-    max-width: 395px;
-    height: 358px;
-    box-sizing: border-box;
-    padding: 48px;
-    margin-bottom: 24px;
     
-    border-radius: 24px;
     border: 2px dashed #B0DDE8;
-    background: #3D3D3D;
+    
 }
 
 /* .frame-parent1 {
@@ -127,11 +120,12 @@ left: 252px; */
     /* position: absolute;
 top: 232px;
 left: 248px; */
-    border-top: 8px solid #70c1d6;
+background: #70c1d6;
     box-sizing: border-box;
-    width: 229px;
+    width: 206px;
     height: 8px;
     margin-bottom: 48px;
+    margin-top: 24px;
 }
 
 .practical-solutions-that {

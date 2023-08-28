@@ -37,10 +37,39 @@
     letter-spacing: -0.64px;
     display: none;
     overflow: hidden;
+    text-align: left;
+}
+/* .......................faq3,,,,,,,,,,,,,,,,,,,,,,,, */
+.faqcontent::before{
+    content: "\2022"; 
+    margin-right: 5px;
+}
+.faqcontent{
+    font-size: 32px;
+}
+.text{
+    text-align: left;
+    margin: 0;
 }
 
+.faqlist div{
+    margin-bottom: 10px;
+}
+.panel p{
+    color: #ADADAD;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.64px;
+    
+   
+        }
+/* ......................faq3.........................         */
 .accordion:after {
     content: ' \2303';
+    transform: rotate(180deg);
     font-size: 30px;
     color: #ededed;
     float: right;
@@ -55,7 +84,8 @@
 
 .accordion.active:after {
     content: '\2303';
-    transform: rotate(180deg);
+    transform: rotate(360deg);
+    
     
 }
 
@@ -80,7 +110,7 @@
     height: 7px;
     width: 100%;
     max-width: 301px;
-    margin-top: 24;
+    margin-top: 24px;
     margin-bottom: 48px;
 }
 .some-of-the{
@@ -101,16 +131,7 @@
     line-height: normal;
     letter-spacing: -0.8px;
 }
-.panel p{
-    color: #ADADAD;
-    font-family: IBM Plex Sans;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.64px;
-    margin-bottom: 48px;
-        }
+
 .panel{
     background: none;
 }

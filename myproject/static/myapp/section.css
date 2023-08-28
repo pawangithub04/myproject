@@ -5,15 +5,10 @@
     flex-direction: column;
 
     
-    background-image: url('lainding_main.png');
+    background-image: url('../IMAGES/lainding_main.png');
     background-repeat: no-repeat;
     background-position: center center;
     padding: 85px;
-
-    /* Fix the background image */
-
-
-    /* Set the initial height of the background image to 100% of the viewport height */
     background-size: cover;
     height: 100%;
 }
